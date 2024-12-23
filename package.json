@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Omar-Abdelbaky1.github.io/Berimbolo-Security",
   "name": "react-typescript-template",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "@types/react-dom": "^18.2.1",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^6.2.0",
     "google-map-react": "^2.2.0",
     "leaflet": "^1.9.3",
     "react": "^18.2.0",
@@ -26,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
