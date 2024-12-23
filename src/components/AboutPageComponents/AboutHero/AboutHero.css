@@ -1,0 +1,22 @@
+.about-us-img {
+  width: 40vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-us-text {
+  padding: 30px 20px 30px 20px;
+  border-bottom: 1px dashed #555555;
+}
+
+.approach-container {
+  position: relative;
+  z-index: 5;
+}
+
+@media (max-width: 768px) {
+  .about-us-img {
+    width: 80%;
+    height: 300px;
+  }
+}
